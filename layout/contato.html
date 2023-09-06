@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato HTML</title>
+</head>
+<body>
+    <header  style="display: flex;">
+        <!--Aqui começa meu logo.-->
+        <section>
+          <img src="perfil.jpg" alt="Foto de Perfil" height="150px"; width="150px;">
+  
+        </section>
+        <!-- Navegação (menu)-->
+        <nav>
+          <br><br>
+         &nbsp;&nbsp;<a href="mySite.html"> Sobre mim </a> &nbsp;&nbsp; | &nbsp;&nbsp;
+         &nbsp;&nbsp;<a href="entreterimento.html" target="_blank"> Entreterimento </a>&nbsp;&nbsp; | &nbsp;&nbsp;
+         &nbsp;&nbsp;<a href="music.html" target="_blank"> Música </a> &nbsp;&nbsp; | &nbsp;&nbsp; 
+         &nbsp;&nbsp;<a href="cantato.html" target="_blank">Contatto </a>
+        </nav>
+      </header>
+
+      <main>
+        <h3> Fale comigo | Talk to me </h3>
+      </main>
+      <article>
+        <form method="post" id="fContato" action="maito:kleyttonoliveira35@gmail.com">
+          <fieldset>
+            <legend><strong>Suas informações</strong></legend>
+            <label for="cName">Nome:</label><br>
+            <input type="text" size="50" name="tName" required placeholder="Insira seu nome">
+            <br><br>
+
+            <label for="cName">Email:</label><br>
+            <input type="text" size="50" name="tName" required placeholder="Insira se Email">
+            <br><br>
+
+            <label for="cName">WhatsApp:</label><br>
+            <input type="tel" size="50" name="tel" required placeholder="Insira de Contato">
+            <br><br>
+
+            <label for="cName">Data de Nascimento:</label><br>
+            <input type="date" size="50" name="data" id="Data" required placeholder="dd/mm/aa">
+          </fieldset>
+
+        </form>
+      </article> <br>
+
+      <fieldset>
+        <legend><strong>FeedBack</strong></legend>
+        <textarea name="message" rows="10" cols="30" placeholder="Deixe aqui sua mensaagem"></textarea>
+      </fieldset>
+
+      <br>
+
+      <input type="submit" value="Enviar">
+
+
+      <br><br>
+
+      <footer>
+        By Kleytton &copy;
+      </footer>
+</body>
+</html>

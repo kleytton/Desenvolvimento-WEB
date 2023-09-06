@@ -1,0 +1,22 @@
+h1{
+    /* Muda a cor do fundo*/
+    background-color: yellow;
+    /*Tamanaho da fonte*/
+    font-size: 18px;
+    /*Tamanho da largura da caixa*/
+    width: 100%;
+    /*Altura da caixa*/
+    height: 50px;
+    /*Alinhamento do texto*/
+    text-align: center;
+    /*Tipo da fonte*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .4rem;
+    /*Cor do texto*/
+    color: blue;
+    /*Espaçamento Interno (parte superior)*/
+    padding-top: 15px;
+    /*Como a caixar vai ser formada*/
+    box-sizing: border-box;
+}
+ 
